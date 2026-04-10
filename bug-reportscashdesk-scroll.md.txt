@@ -1,0 +1,20 @@
+# 🐞 Cashdesk Scroll Issue
+
+## Description
+When scrolling to the bottom of the cashdesk page, some elements become misaligned or hidden.
+
+## Steps to Reproduce
+1. Open Cashdesk  
+2. Scroll to the bottom  
+
+## Expected Result
+All elements should remain visible and properly aligned.
+
+## Actual Result
+Some elements are hidden or incorrectly positioned.
+
+## Severity
+Medium
+
+## Notes
+Issue affects usability when navigating large ticket lists.
