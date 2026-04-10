@@ -1,0 +1,21 @@
+# 🐞 Ticket Payout Shows Incorrect Info
+
+## Description
+After ticket payout, printed ticket still displays "possible winnings".
+
+## Steps to Reproduce
+1. Create ticket  
+2. Pay out ticket  
+3. Print ticket  
+
+## Expected Result
+Only final payout information should be shown.
+
+## Actual Result
+"Possible winnings" is still visible.
+
+## Severity
+High
+
+## Notes
+Incorrect information may confuse users.
