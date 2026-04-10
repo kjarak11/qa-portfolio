@@ -1,0 +1,22 @@
+# 🐞 Player Creation Modal Keeps Error
+
+## Description
+Modal retains previous error message even after reopening.
+
+## Steps to Reproduce
+1. Open "Create Player"  
+2. Trigger validation error  
+3. Close modal  
+4. Reopen modal  
+
+## Expected Result
+Modal should reset.
+
+## Actual Result
+Old error is still displayed.
+
+## Severity
+Medium
+
+## Notes
+Creates confusion during repeated player creation attempts.
