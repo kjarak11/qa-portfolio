@@ -28,7 +28,7 @@ Experienced in identifying issues, writing clear bug reports, and working with d
 
 ---
 
-##  Projects
+##  Bug reports examples
 
 ---
 
