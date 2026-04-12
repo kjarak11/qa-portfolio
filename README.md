@@ -1,13 +1,13 @@
 # QA Portfolio – Kristijan
 
-## 👨‍💻 About Me
+##  About Me
 QA Engineer with hands-on experience in manual and automation testing.  
 Focused on betting platforms, KYC flows, payments, and API validation.  
 Experienced in identifying issues, writing clear bug reports, and working with developers to resolve defects.
 
 ---
 
-## 🧠 Skills
+##  Skills
 - Manual Testing
 - API Testing (DevTools / HAR)
 - Automation Testing (Playwright)
@@ -18,7 +18,7 @@ Experienced in identifying issues, writing clear bug reports, and working with d
 
 ---
 
-## 🛠️ Tools
+##  Tools
 - Playwright  
 - Chrome DevTools  
 - Jira  
@@ -28,13 +28,13 @@ Experienced in identifying issues, writing clear bug reports, and working with d
 
 ---
 
-## 📁 Projects
+##  Projects
 
 ---
 
 ### 🔹 1. Bug Reports
 
-#### 🐞 Cashdesk Scroll Issue
+####  Cashdesk Scroll Issue
 **Description:**  
 When scrolling to the bottom of the cashdesk page, content becomes misaligned or partially hidden.
 
@@ -50,7 +50,7 @@ Some elements are hidden or incorrectly positioned.
 
 ---
 
-#### 🐞 Ticket Payout Shows Incorrect Info
+####  Ticket Payout Shows Incorrect Info
 **Description:**  
 After ticket payout, printed ticket still displays "possible winnings".
 
@@ -67,7 +67,7 @@ Only final payout information should be shown.
 
 ---
 
-#### 🐞 Player Creation Modal Keeps Error
+####  Player Creation Modal Keeps Error
 **Description:**  
 Modal retains previous error message even after reopening.
 
@@ -85,7 +85,7 @@ Old error is still displayed.
 
 ---
 
-#### 🐞 KYC / Terms Issue
+####  KYC / Terms Issue
 **Description:**  
 Using player card for a user who hasn’t accepted Terms & Conditions blocks the UI.
 
@@ -101,21 +101,3 @@ Nothing is shown; page becomes unusable until refresh.
 
 ---
 
-### 🔹 2. Automation Testing (Playwright)
-
-Automated key user flows on a betting platform.
-
-**Covered:**
-- Login flow  
-- Ticket creation  
-- Basic validation  
-
-**Example:**
-```javascript
-test('User login', async ({ page }) => {
-  await page.goto('https://example.com');
-  await page.fill('#username', 'test');
-  await page.fill('#password', 'password');
-  await page.click('#login');
-  await expect(page).toHaveURL('/dashboard');
-});
